@@ -1,5 +1,174 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+.navbar {
+  padding: .2rem;
+  color: #1091FF;
+}
+
+.navbar-nav li{
+  padding-right: 20px;
+
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+/* .carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+} */
+
+#banner {
+  position: relative;
+}
+
+#banner img {
+  width: 100%;
+}
+
+#banner .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #3DB840;
+  color: white;
+  font-size: 20px;
+  padding: 18px 35px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#banner .btn:hover {
+  background-color: #1091FF;
+  border: none;
+}
+
+.jumbotron {
+  padding: 25px;
+  padding-left:75px;
+  padding-right: 75px;
+  border-radius: 0;
+}
+
+.padding {
+  padding-bottom: 75px;
+}
+
+.definition {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.definition a{
+  background-color: #1091FF;
+  color: white;
+}
+
+.definition a:hover{
+  background-color: #3DB840;
+}
+
+.definition h1, .about h2, .staff h1, .connect h1 {
+  color: #3DB840
+}
+
+.definition hr {
+  border-top: 2px solid #1091FF;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.testimonies, .about{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.about h2 {
+  padding-bottom: 15px;
+}
+
+.about img {
+  padding-top: 80px;
+}
+
+.staff {
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+
+.card {
+  width: 65%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services hr {
+  width: 100%;
+}
+
+.connect .padding {
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+}
+.connect{
+  padding-bottom: 50;
+  margin-bottom: 0;
+}
+
+.social a {
+  font-size: 4em;
+  padding: 3rem;
+}
+
+.contacts{
+  padding-top: 0;
+  padding-bottom: 100px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+
+.contacts hr {
+  border-top: 1px solid #1091FF;
+  width: 100%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.contacts h5 {
+  padding-top: 50px;
+}
+
+footer {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.footerhr {
+  background-color: #1091FF;
+}
 
 
 

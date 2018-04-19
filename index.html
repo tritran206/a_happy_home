@@ -28,23 +28,23 @@
 					<a class="nav-link" href="#">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">About us</a>
+					<a class="nav-link" href="#about">About us</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Our services</a>
+					<a class="nav-link" href="#services">Our services</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Meet our Staff</a>
+					<a class="nav-link" href="#staff">Meet our Staff</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Connect</a>
+					<a class="nav-link" href="#connect">Connect</a>
 				</li>
 		</div>
 	</div>
 </nav>
 
 <!-- carousel -->
-<div id="slides" class="carousel slide" data-ride="carousel">
+<!-- <div id="slides" class="carousel slide" data-ride="carousel">
 	<ul class="carousel-indicators">
 		<li data-target="#slides" data-slide-to="0" class="active"></li>
 		<li data-target="#slides" data-slide-to="1"></li>
@@ -84,16 +84,20 @@
 			</div>
 		</div>
 	</div>
+</div> -->
+
+<!-- Homepage image banner -->
+<div id="banner">
+	<img src="img/banner.jpg" alt="banner image">
+	<a href="#connect"><button class="btn">Schedule a Tour</button></a>
 </div>
 
+
 <!-- jumbotron -->
-<div class="container-fluid">
+<div class="container-fluid info">
 <div class="row jumbotron">
-	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+	<div class="col-12">
 		<p class="lead">A Happy Home's comprehensive service approach relieves families of worries, concerns and chores for their elders.  from medical case management to nail polish our residents are all self-sufficient.</p>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-		<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">More Information</button></a>
 	</div>
 </div>
 </div>
@@ -106,13 +110,13 @@
 		</div>
 		<hr>
 		<div class="col-12">
-			<p class="lead">"Residential homes licensed to care for up to six non-related residents. They provide room, board, laundry, necessary supervision, and necessary help with activities of daily living, personal care, and social services." -DSHS.</p><a href="https://www.dshs.wa.gov/altsa/residential-care-services/about-adult-family-homes" class="btn btn-outline-secondary">Learn More</a>
+			<p class="lead">"Residential homes licensed to care for up to six non-related residents. They provide room, board, laundry, necessary supervision, and necessary help with activities of daily living, personal care, and social services." -DSHS.</p><a href="#services" class="btn btn-outline-secondary">Our Services</a>
 		</div>
 	</div>
 </div>
 
 <!-- testimonies -->
-<div class="container-fluid padding lead">
+<div class="container-fluid padding lead testimonies">
 	<div class="row text-center padding">
 		<div class="col-xs-12 col-sm-6 col-md-4">
 			<p><i>“My father showed remarkable improvements in his health.  He started moving and walking again just a few weeks after moving into swiss haus.”</i> - Wendy H</p>
@@ -128,7 +132,8 @@
 </div>
 
 <!-- about A Happy Home -->
-<div class="container-fluid padding">
+<div class="container-fluid padding about">
+	<a name="about"></a>
 	<div class="row padding">
 		<div class="col-md-12 col-lg-6">
 			<h2 class="display-4">About Us</h2>
@@ -143,7 +148,8 @@
 </div>
 
 <!--Meet the staff-->
-<div class="container-fluid padding">
+<div class="container-fluid padding staff">
+	<a name="staff"></a>
 	<div class="row welcome text-center">
 		<div class="col-12">
 			<h1 class="display-4">Meet the Staff</h1>
@@ -178,7 +184,8 @@
 </div>
 
 <!-- services -->
-<div class="container-fluid padding">
+<div class="container-fluid padding services">
+	<a name="services"></a>
 	<div class="row definition text-left">
 		<div class="col-12">
 			<h1 class="display-4 text-center">Services</h1>
@@ -218,10 +225,11 @@
 
 
 <!-- social media -->
-<div class="container-fluid padding">
+<div class="container-fluid padding connect">
+	<a name="connect"></a>
 	<div class="row text-center padding">
 		<div class="col-12">
-			<h2>Connect</h2>
+			<h1>Connect</h1>
 		</div>
 		<div class="col-12 social padding">
 			<a href="#"><i class="fab fa-facebook"></i></a>
@@ -231,35 +239,38 @@
 	</div>
 </div>
 
-<!-- footer -->
-<footer>
-	<div class="container-fluid padding">
-		<div class="row text-center">
-			<div class="col-md-4">
-				<img src="img/logo.png">
-				<hr class="light">
-				<p>13403 25th Ave SE</p>
-				<p>Millcreek, WA 98012</p>
-			</div>
-			<div class="col-md-4">
-				<hr class=light>
-				<h5>Email</h5>
-				<hr class="light">
-				<p>info@swisshausafh.com</p>
-			</div>
-			<div class="col-md-4">
-				<hr class=light>
-				<h5>Phone</h5>
-				<hr class="light">
-				<p>Traci Tran: 206-377-9662</p>
-				<p>Valeri Tran: 206-892-8143</p>
-			</div>
-			<div class="col-12">
-				<hr class="light">
-				<h5>&copy; A Happy Home 2018</h5>
-			</div>
+<div class="container-fluid padding contacts">
+	<div class="row text-center">
+		<div class="col-md-4">
+			<hr>
+			<img src="img/logo.png">
+
+			<p>13403 25th Ave SE</p>
+			<p>Millcreek, WA 98012</p>
+		</div>
+		<div class="col-md-4">
+			<hr>
+			<h4>Email</h4>
+			<hr>
+			<p>info@swisshausafh.com</p>
+		</div>
+		<div class="col-md-4">
+			<hr>
+			<h4>Phone</h4>
+			<hr>
+			<p>Traci Tran: 206-377-9662</p>
+			<p>Valeri Tran: 206-892-8143</p>
 		</div>
 	</div>
+</div>
+
+<!-- footer -->
+<footer>
+			<div class="col-12">
+				<hr class="footerhr">
+				<h5>&copy; A Happy Home 2018</h5>
+			</div>
 </footer>
+
 </body>
 </html>
