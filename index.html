@@ -18,26 +18,26 @@
 <!-- navigation bar -->
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+		<a class="navbar-brand" href="#section-banner"><img src="img/logo.png"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home</a>
+				<!-- <li class="nav-item active">
+					<a class="nav-link" href="#section-banner">Home</a>
+				</li> -->
+				<li class="nav-item">
+					<a class="nav-link" href="#section-about">About us</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#about">About us</a>
+					<a class="nav-link" href="#section-services">Our services</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#services">Our services</a>
+					<a class="nav-link" href="#section-staff">Meet our Staff</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#staff">Meet our Staff</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#connect">Connect</a>
+					<a class="nav-link" href="#section-connect">Connect</a>
 				</li>
 		</div>
 	</div>
@@ -87,10 +87,10 @@
 </div> -->
 
 <!-- Homepage image banner -->
-<div id="banner">
+<section id="banner">
 	<img src="img/banner.jpg" alt="banner image">
 	<a href="#connect"><button class="btn">Schedule a Tour</button></a>
-</div>
+</section>
 
 
 <!-- jumbotron -->
@@ -110,7 +110,7 @@
 		</div>
 		<hr>
 		<div class="col-12">
-			<p class="lead">"Residential homes licensed to care for up to six non-related residents. They provide room, board, laundry, necessary supervision, and necessary help with activities of daily living, personal care, and social services." -DSHS.</p><a href="#services" class="btn btn-outline-secondary">Our Services</a>
+			<p class="lead">"Residential homes licensed to care for up to six non-related residents. They provide room, board, laundry, necessary supervision, and necessary help with activities of daily living, personal care, and social services." -DSHS.</p><a href="#section-services" class="btn btn-outline-secondary">Our Services</a>
 		</div>
 	</div>
 </div>
@@ -132,8 +132,7 @@
 </div>
 
 <!-- about A Happy Home -->
-<div class="container-fluid padding about">
-	<a name="about"></a>
+<section id="section-about" class="container-fluid padding about">
 	<div class="row padding">
 		<div class="col-md-12 col-lg-6">
 			<h2 class="display-4">About Us</h2>
@@ -145,11 +144,11 @@
 			<img src="img/front_house.jpg" class="img-fluid">
 		</div>
 	</div>
-</div>
+</section>
 
 <!--Meet the staff-->
 <div class="container-fluid padding staff">
-	<a name="staff"></a>
+	<a id="section-staff"></a>
 	<div class="row welcome text-center">
 		<div class="col-12">
 			<h1 class="display-4">Meet the Staff</h1>
@@ -185,7 +184,7 @@
 
 <!-- services -->
 <div class="container-fluid padding services">
-	<a name="services"></a>
+	<a id="section-services"></a>
 	<div class="row definition text-left">
 		<div class="col-12">
 			<h1 class="display-4 text-center">Services</h1>
@@ -226,7 +225,7 @@
 
 <!-- social media -->
 <div class="container-fluid padding connect">
-	<a name="connect"></a>
+	<a id="section-connect"></a>
 	<div class="row text-center padding">
 		<div class="col-12">
 			<h1>Connect</h1>
@@ -272,5 +271,11 @@
 			</div>
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js" integrity="sha256-MMt0/21G3z0Zg4ET1kI3HC9npItDowkitRDVr0FhCxA=" crossorigin="anonymous"></script>
+<script type"text/javascript">
+	$(function () {
+		var scroll = new SmoothScroll('a[href*="#section-"]', {speed: 750});
+	})
+</script>
 </body>
 </html>
